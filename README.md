@@ -1,5 +1,4 @@
 # ekx_streamlit_app
-# churn_prediction
 
 ![Build Status](https://github.com/mickailkhadhar/ekx_streamlit_app/actions/workflows/ci-build.yaml/badge.svg)
 
