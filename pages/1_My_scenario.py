@@ -43,7 +43,7 @@ def main():
     st.plotly_chart(plotter.get_scatter_plot(data, 'FinalGrade', 'StudentID', 'guardian'), theme = 'streamlit', use_container_width=True)
     fig = sns.displot(data=data, x="FinalGrade", hue="guardian", kind="kde", multiple = 'stack')
 
-    st.pyplot(fig, theme = 'streamlit', use_container_width = True)
+    st.pyplot(fig)
     st.write("""We can see that when moms are responsible, the student grades are following normal distribution. It seems even when the father is in charge, even if we have fewer examples.
     However, when neither the mom nor the dad is responsible for the child, we can assume in this sample at least, that the child would have a bit more difficulties than the mean""")
 
